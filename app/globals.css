@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{background:#F5F4F0;color:#101114;scroll-behavior:smooth}
+body{font-family:var(--font-body),sans-serif}
+.display{font-family:var(--font-display),sans-serif;letter-spacing:-0.045em;line-height:.92;font-weight:700}
+.meta{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#686B73}
+:focus-visible{outline:2px solid #F0304F;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
